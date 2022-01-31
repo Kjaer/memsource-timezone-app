@@ -1,0 +1,12 @@
+.timerForm {
+    position: relative;
+    max-width: 100%;
+    box-sizing: border-box;
+}
+
+.timerForm input {
+    width: 100%;
+    font-size: x-large;
+    max-width: 100%;
+    box-sizing: border-box;
+}

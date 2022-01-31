@@ -1,0 +1,55 @@
+{
+  "name": "timezone-converter",
+  "version": "1.0.0",
+  "description": "This challenge requested from Memsource as a part of Sr. Frontend Engineer hiring.",
+  "keywords": [
+    "Halil",
+    "Kayer",
+    "Memsource",
+    "timezone",
+    "challenge"
+  ],
+  "author": "Halil Kayer (kayer.halil@gmail.com)",
+  "license": "ISC",
+  "main": "src/index.js",
+  "scripts": {
+    "start": "parcel public/index.html --port 16899 --open chrome",
+    "start-proxy": "node scripts/proxy.js -p 15486 -t https://data.opendatasoft.com/",
+    "test": "jest",
+    "test:debug": "yarn run --inspect-brk jest --runInBand",
+    "format": "prettier --write !dist !.yarn !.parcel-cache !package.json \"**/*.{js,jsx,json}\"",
+    "lint": "prettier --check !dist !.yarn !.parcel-cache !package.json \"**/*.{js,jsx,json}\""
+  },
+  "dependencies": {
+    "react": "^17.0.2",
+    "react-dom": "^17.0.2",
+    "throttle-debounce": "^3.0.1"
+  },
+  "devDependencies": {
+    "@babel/core": "^7.16.12",
+    "@babel/preset-env": "^7.16.11",
+    "@babel/preset-react": "^7.16.7",
+    "@parcel/config-default": "^2.2.1",
+    "@parcel/core": "^2.2.1",
+    "@parcel/transformer-js": "^2.2.1",
+    "@parcel/transformer-react-refresh-wrap": "^2.2.1",
+    "@testing-library/dom": "^8.11.3",
+    "@testing-library/jest-dom": "^5.16.1",
+    "@testing-library/react": "^12.1.2",
+    "@testing-library/user-event": "^13.5.0",
+    "babel-jest": "^27.4.6",
+    "command-line-args": "^5.2.0",
+    "http-proxy": "^1.18.1",
+    "jest": "^27.4.7",
+    "jest-css-modules-transform": "^4.3.0",
+    "parcel": "^2.2.1",
+    "postcss": "^8.2.1",
+    "prettier": "^2.5.1",
+    "react-test-renderer": "^17.0.2"
+  },
+  "packageManager": "yarn@3.1.1",
+  "browserslist": "> 0.5%, last 2 versions, not dead",
+  "engines": {
+    "node": ">=16.10.0"
+  }
+}
