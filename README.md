@@ -2,8 +2,10 @@
 
 > Author: Halil Kayer
 
+![Timezone Converter App](timezone-app.png)
 ## Overview
 This project is developed using react.js. React testing library and jest used for testing; mvp.css lies on its core styling and css modules is chosen for component styling. I choose Geonames' city API for city suggestion source (https://public.opendatasoft.com/explore/dataset/geonames-all-cities-with-a-population-1000/). There's a command at your disposal in order to run a proxy server of which proxying API in order not to hassle with CORS issues. Package manager is yarn v.3.1.1. Best thing of using yarn is, it does not require to be downloaded or installed on your system additionaly, already packed up and comes in the project just like the source code. Yet, there is a requirement for running  yarn v.3.1.1 which is node.js. It must be version 16.10 or above due to corepack capabilities. Yarn Plug'n'Play enabled (https://yarnpkg.com/features/pnp). So don't expect node_modules here in project after run `yarn install`. Parcel used for bundler, reason is shortened the time for creating and spinning up the project. Prettier is the formatting tool for all the js, json files. Default formatting settings used for the aforementioned files.
+
 
 ## Commands
 First of all, please make sure your `node.js` version is equal to or higher than `16.10`. There's a `engines` entry in `package.json` so if you have lower version, unfortunately projects won't run any command.
