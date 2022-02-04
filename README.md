@@ -103,17 +103,17 @@ As you would guess so far, I avoided update city list  clock in every second. Th
 So every time, user clicks the _Use current time_ link or set custom time, new clock value delivered to city list component. The same goes for the clock. Meaning, every time a new city added to or removed from city list component, a signal created and delivered to clock component. This signal causes clock component sets again a clock which reflected to city list. This duplex communication updates relevant info on the page quite enough.
 
 ## Resources
-https://www.delftstack.com/howto/javascript/initialize-javascript-date-to-a-particular-timezone/
-https://toastui.medium.com/handling-time-zone-in-javascript-547e67aa842d
-https://www.bha.ee/how-to-setup-jest-test-runner-in-react-application-with-parcel-js/
-https://www.peterbe.com/plog/how-to-throttle-and-debounce-an-autocomplete-input-in-react
-https://codewithhugo.com/mocking-the-current-date-in-jest-tests/
-https://stackoverflow.com/a/70610641/5018572
-https://kentcdodds.com/blog/fix-the-not-wrapped-in-act-warning
-https://data.opendatasoft.com/explore/dataset/geonames-all-cities-with-a-population-1000%40public/api/?disjunctive.country&disjunctive.cou_name_en&sort=name&q=tokat
-https://opendata.stackexchange.com/a/7497
-https://stackoverflow.com/a/58252034/5018572
-https://stackoverflow.com/a/15171030/5018572
-https://www.codegrepper.com/code-examples/javascript/get+browser+timezone+javascript
-https://www.thisdot.co/blog/how-to-handle-time-zones-using-datetime-and-luxon
-https://stackoverflow.com/a/50901817/5018572
+1. https://www.delftstack.com/howto/javascript/initialize-javascript-date-to-a-particular-timezone/
+2. https://toastui.medium.com/handling-time-zone-in-javascript-547e67aa842d
+3. https://www.bha.ee/how-to-setup-jest-test-runner-in-react-application-with-parcel-js/
+4. https://www.peterbe.com/plog/how-to-throttle-and-debounce-an-autocomplete-input-in-react
+5. https://codewithhugo.com/mocking-the-current-date-in-jest-tests/
+6. https://stackoverflow.com/a/70610641/5018572
+7. https://kentcdodds.com/blog/fix-the-not-wrapped-in-act-warning
+8. https://data.opendatasoft.com/explore/dataset/geonames-all-cities-with-a-population-1000%40public/api/?disjunctive.country&disjunctive.cou_name_en&sort=name&q=tokat
+9. https://opendata.stackexchange.com/a/7497
+10. https://stackoverflow.com/a/58252034/5018572
+11. https://stackoverflow.com/a/15171030/5018572
+12. https://www.codegrepper.com/code-examples/javascript/get+browser+timezone+javascript
+13. https://www.thisdot.co/blog/how-to-handle-time-zones-using-datetime-and-luxon
+14. https://stackoverflow.com/a/50901817/5018572
